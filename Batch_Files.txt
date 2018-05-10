@@ -1,0 +1,108 @@
+﻿Task 1:
+a)
+ECHO OFF
+REM first will set C:\work\data\ as the working directory
+cd C:\work\data\
+REM then will actually copy all .txt files from that to the
+REM newly created "destination" folder within "work"
+xcopy *.txt C:\work\destination\
+
+b)
+ECHO OFF
+REM since directory is already set from a) only need one
+REM short line to accomplish this using xcopy with " . " to
+REM capture all files after said date, follwed by the path of
+REM the new folder
+xcopy /d:1-1-2009 . C:\work\destination\
+
+Task 2:
+a)
+ECHO OFF
+REM first starting with an "if exist" statement, followed by
+REM the file name (readme.txt) then followed by the command
+REM which displays the text following the echo command
+IF EXIST Readme.txt ECHO Readme.txt is in C:\work\data
+
+b)
+ECHO OFF
+REM this checks to see if the file exists, if that's true
+REM it'll rename (REN) it by referencing the file that needs
+REM to be renamed, followed by the file's new name
+IF EXIST readme.txt REN readme.txt readme_new.txt
+
+Task 3:
+a)
+ECHO OFF
+REM first, change the directory
+REM the user has to call this batch, followed by the name of the
+REM shapefile they wish to check which will be stored in "%1"
+REM that string is added to .shp to see if it exists
+REM if true, then that parameter with the .shp extension is
+REM printed out with more text explaining it exists
+cd C:\work\data\
+IF EXIST %1.shp ECHO %1.shp is in the current directory
+
+b)
+ECHO OFF
+REM first, change the directory
+REM then, a variable "n" is set to the value 0
+REM this batch will be called with a parameter which will be
+REM stored as %1 which will go through the four "if" statements
+REM and if any of those are true, "n" will have 1 added to it
+REM by the end, n will be 0,1,2,3, or 4 and that value will
+REM be displayed via echo with some text explaining there are that
+REM many %1 files in the directory
+cd C:\work\data\
+set n=0
+IF EXIST %1.shp set /a n+=1
+IF EXIST %1.shx set /a n+=1
+IF EXIST %1.dbf set /a n+=1
+IF EXIST %1.prj set /a n+=1
+ECHO %n% files were found in current directory
+
+c)
+ECHO OFF
+REM first, change the directory, the parameter called with
+REM this batch will be stored as %1
+REM it will then flow through the following "if" statements in order
+REM if the first is true, it means %1 is a full shapefile including
+REM a projection, if the second is true, then %1 is still a full
+REM shapefile, but without a projection file.
+REM the next if/else/if/else statment makes sure that if any of
+REM .shp , .shx , .dbf are missing, only one line will be echoed
+REM explaining that %1 is not a complete shapefile
+cd C:\work\data\
+IF EXIST %1.dbf IF EXIST %1.shp IF EXIST %1.shx IF EXIST %1.prj ECHO %1 is a complete shapefile including projection
+IF EXIST %1.dbf IF EXIST %1.shp IF EXIST %1.shx IF NOT EXIST %1.prj ECHO %1 is a complete shapefile but not including projection
+IF NOT EXIST %1.dbf (
+    ECHO %1 is not a complete shapefile
+) ELSE (
+    IF NOT EXIST %1.shp (
+        ECHO %1 is not a complete shapefile
+    ) ELSE (
+        IF NOT EXIST %1.shx ECHO %1 is not a complete shapefile
+    )
+)
+
+Task 4:
+echo file info > result.txt
+REM creates a new file “result.txt” and will have the text “file info” REM written in it. If result.txt was already a file, that will be
+REM overwritten
+
+dir \soils\daneSoils\ > daneData.txt
+REM this will produce the prompt to display "The system cannot
+REM find the path specified" because there is no *:\ before \soils...
+REM apparently the command does not assume that this is a continuation
+REM of the directory in which it is already
+
+find /i "Robinson" < daneData.txt >> result.txt
+REM this will search the “daneData.txt” file for all instances of
+REM “Robinson” regardless of the case of its characters (ROBINSON,
+REM robinson, or ROBinsON will all be included). Then, all lines
+REM containing “robinson” will be appended as a list to the end of the REM existing “result.txt” file. If “result.txt” does not already
+REM exist, it will be created with the lines including “robinson”
+REM output as its text.
+
+type result.txt | find “he”
+REM all of the text within “result.txt” will be searched for the
+REM string “he” and the output (within the command prompt window) will REM be all of the lines in “result.txt” that contain “he”

@@ -1,0 +1,99 @@
+GDAL Tasks
+a)
+REM the following code outputs all of the necessary information to determine
+REM the real-world ground dimentions for corona.tif
+cd C:\work\data\
+gdalinfo corona.tif
+REM from that we get "UNIT["metre",1," so the unit is meters and 
+REM Pixel Size = (5.000000000000000,-5.000000000000000) which means each
+REM pixel represents 5 units, or 5 meters
+REM since the image is 1792x1434 pixes from the line "Size is 1792, 1434"
+REM the actual ground area this represents is 8960m x 7170m
+REM or 64,243,200 square meters
+
+b)
+REM At 100 pixels/cm, the printed size would be 17.92cm x 14.34cm
+REM per question a), the real life width takes up 8960m or 896000cm
+REM if we calculate 896000/17.92 we get 50,000 and therefore the
+REM scale is 1:50,000 which is to say that if we multiplied the length
+REM or width of the picture by 50,000, it would then be the same
+REM size that the image takes up in real life (earth's surface)
+
+c) and d)
+cd C:\work\data\
+REM the following command will take all of the supported information and
+REM write it to the ouput.txt file. I know the instructions recommend
+REM that a pipe command is used, but per Yuying's instructions in the
+REM discussion, that isn't necessary since we don't need to drill down
+REM as printing all of the information is fine, so only > is used.
+REM In that file one can see that the 4th line describes the coordinate
+REM reference system: "Coordinate System is:..." UTM zone 10 NAD27
+gdalinfo independence.dem > output.txt
+REM the following part will perform the reprojection, second bullet
+REM from the output of the first section we learned that this DEM
+REM was in UTM zone 10, west cost of NA, so we first need to warp
+REM or reproject it to the desired datum of NAD83
+REM the gdalwarp command with the t_srs sets the target srs and the
+REM following information in quotes is all of the desired settings
+REM based on spatialreference.org Proj4 settings for EPSG:26910
+REM the output will be a geotiff which is why we then need to translate
+REM the tiff to the USGSDEM file which we desired
+REM this is done with the last line which has an ouput format of USGSDEM
+REM and the input is the tif while the output is the same name but a dem file
+gdalwarp -t_srs “+proj=utm +zone=10 +ellps=GRS80 +datum=NAD83 +units=m +no_defs” independence.dem independence-NAD83.tif
+gdal_translate -of USGSDEM independence-NAD83.tif independence-NAD83.dem
+
+e)
+REM this scripts calls gdaldem hillshade which generates a shaded
+REM relief map from an elevation raster and -z X sets the vertical
+REM exaggeration factor to X, which in this script will be 2.
+REM that is followed by the input dem and the output's name
+cd C:\work\data\
+gdaldem hillshade -z 2 independence-NAD83.dem independence83shade2.tif
+
+f)
+REM gdal_contour is the command used to create a contour map from a dem file
+REM the -i X sets the elevation change interval which for this is 10
+REM then the -a string is what the elevation attribute will be named in the table
+REM which I decided to call height, this helps so I can check my work by looking
+REM at the attribute table in arcmap after the file is created.
+REM That is followed by the input file then followed by the output shapefile's name
+cd C:\work\data\
+gdal_contour -i 10.0 -a height independence-NAD83.dem independence-NAD83contour
+
+OGR Tasks
+a)
+REM the real world dimensions of said shp are 34,316.52 ft x 35,921.47 ft
+REM and the command I used to arrive at that answer is as follows:
+cd C:\work\data\
+ogrinfo -so bldg_clip_dist.shp bldg_clip_dist
+REM from that output, which gives us the summary of the bldg_clip_dist layer
+REM of the bldg_clip_dist.shp we can see the EXTENT field which is in the format of
+REM (xmin, ymin) - (xmax, ymax). From that I can take the difference of the x and y
+REM values to arrive at the length and width of the layer. Then we see that the
+REM UNIT is written as "Foot_US" so we also know the measurment units.
+REM The place on earth that is covered by this image can NOT be determined
+REM from those dimensions because they are not location specific - one could
+REM measure many 34k ft x 35k ft rectangles on the earth's surface.
+REM That being said, there IS enough information in the ogrinfo -so
+REM output to piece together the shapefile's location on the earth's surface
+REM but I am understanding the question to ask if it is possible ONLY
+REM "from these dimesions" which is referencing the "bounding rectangle"
+REM which as I said before is a measurment, not a location.
+
+b)
+REM there are 41 different land use categories in the lulc_clip_dist shapefile
+REM to arrive at that answer I used the sql abilities within ogrinfo
+REM my sql displys the count of distict lu values from the lulc_clip_dist layer
+REM from the lulc_clip_dist.shp. Within that output at the very end it reads
+REM COUNT_lu (Integer) = 41 and therefore there are 41 distinct lu categories
+cd C:\work\data\
+ogrinfo -sql "select count(distinct lu) from lulc_clip_dist" lulc_clip_dist.shp
+
+c)
+REM the following is the .bat called shp2kml which calls for a single string parameter
+REM it will then search the directory for all %1.shp files and convert them to
+REM kml files which are read with google earth
+shp2kml.bat %1
+cd C:\work\data\
+ogr2ogr -f "KML" %1.kml %1.shp
