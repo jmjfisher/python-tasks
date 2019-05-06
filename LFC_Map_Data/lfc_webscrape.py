@@ -99,7 +99,6 @@ for player in final_dict:
                 final_dict[player]['lat'] = 0
                 final_dict[player]['lon'] = 0
 
-#remove the now unnecessary links from the dictonary
 for player in final_dict:
 
         final_dict[player].pop('link')
