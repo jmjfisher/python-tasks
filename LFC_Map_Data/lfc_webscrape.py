@@ -43,34 +43,37 @@ print ('Compiling list of players and season minutes...')
 
 for season in seasons:
 
-	page = 'https://fbref.com/en/squads/822bd0ba/'+season+'/Liverpool'
-	pageTree = requests.get(page, headers=headers)
-	soup = BeautifulSoup(pageTree.content, 'html.parser')
-	pl_table = soup.find('tbody')
-	players = pl_table.select('th')
-	minutes = pl_table.select('td[data-stat="minutes"]')
-	goals = pl_table.select('td[data-stat="goals"]')
+    page = 'https://fbref.com/en/squads/822bd0ba/'+season+'/Liverpool'
+    pageTree = requests.get(page, headers=headers)
+    soup = BeautifulSoup(pageTree.content, 'html.parser')
+    pl_table = soup.find('tbody')
+    players = pl_table.select('th')
+    minutes = pl_table.select('td[data-stat="minutes"]')
+    goals = pl_table.select('td[data-stat="goals"]')
 
-	i = 0
-	while i < len(players):
-		
-		player = str(unidecode(players[i].text))
-		min_played = int(str(minutes[i].text).replace(',', ''))
-		pl_goals = int(str(goals[i].text))
-		link = str(players[i].find_all('a')[0]['href'])
-		seasong = str(season+'g')
+    i = 0
+    while i < len(players):
+        
+        player = str(unidecode(players[i].text))
+        try:
+                min_played = int(str(minutes[i].text).replace(',', ''))
+        except:
+                min_played = 0
+        pl_goals = int(str(goals[i].text))
+        link = str(players[i].find_all('a')[0]['href'])
+        seasong = str(season+'g')
 
-		if player in final_dict:
-			final_dict[player][season] = min_played
-			final_dict[player][seasong] = pl_goals
-		
-		else:
-			player_dict = {'link':link,season:min_played,seasong:pl_goals}
-			final_dict[player] = []
-			final_dict[player] = player_dict
-		
-		i+=1
-		
+        if player in final_dict:
+            final_dict[player][season] = min_played
+            final_dict[player][seasong] = pl_goals
+        
+        else:
+            player_dict = {'link':link,season:min_played,seasong:pl_goals}
+            final_dict[player] = []
+            final_dict[player] = player_dict
+        
+        i+=1
+        
 print ("Player and season list built, adding and geocoding players' birth cities...")
 
 for player in final_dict:
