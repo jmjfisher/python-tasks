@@ -1,0 +1,432 @@
+JOWGPA, true, JO, JOW, OW, PA
+JOWGPB, true, JO, JOW, OW
+JOWGPC, true, JO, JOW, OW
+JOWGQA, true, JO, JOW, OW
+JOWGQB, true, JO, JOW, OW
+JOWGQC, true, JO, JOW, OW
+JOWGRA, true, JO, JOW, OW, GRA, RA
+JOWGRB, true, JO, JOW, OW
+JOWGRC, true, JO, JOW, OW
+JOWGSA, true, JO, JOW, OW, SA
+JOWGSB, true, JO, JOW, OW
+JOWGSC, true, JO, JOW, OW
+JOWHPA, true, JO, JOW, OW, PA
+JOWHPB, true, JO, JOW, OW
+JOWHPC, true, JO, JOW, OW
+JOWHQA, true, JO, JOW, OW
+JOWHQB, true, JO, JOW, OW
+JOWHQC, true, JO, JOW, OW
+JOWHRA, true, JO, JOW, OW, RA
+JOWHRB, true, JO, JOW, OW
+JOWHRC, true, JO, JOW, OW
+JOWHSA, true, JO, JOW, OW, SA
+JOWHSB, true, JO, JOW, OW
+JOWHSC, true, JO, JOW, OW
+JOWIPA, true, JO, JOW, OW, WI, PA
+JOWIPB, true, JO, JOW, OW, WI
+JOWIPC, true, JO, JOW, OW, WI
+JOWIQA, true, JO, JOW, OW, WI
+JOWIQB, true, JO, JOW, OW, WI
+JOWIQC, true, JO, JOW, OW, WI
+JOWIRA, true, JO, JOW, OW, WI, WIR, RA
+JOWIRB, true, JO, JOW, OW, WI, WIR
+JOWIRC, true, JO, JOW, OW, WI, WIR
+JOWISA, true, JO, JOW, OW, WI, WIS, IS, SA
+JOWISB, true, JO, JOW, OW, WI, WIS, IS
+JOWISC, true, JO, JOW, OW, WI, WIS, IS
+JOXGPA, true, JO, OX, PA
+JOXGPB, true, JO, OX
+JOXGPC, true, JO, OX
+JOXGQA, true, JO, OX
+JOXGQB, true, JO, OX
+JOXGQC, true, JO, OX
+JOXGRA, true, JO, OX, GRA, RA
+JOXGRB, true, JO, OX
+JOXGRC, true, JO, OX
+JOXGSA, true, JO, OX, SA
+JOXGSB, true, JO, OX
+JOXGSC, true, JO, OX
+JOXHPA, true, JO, OX, PA
+JOXHPB, true, JO, OX
+JOXHPC, true, JO, OX
+JOXHQA, true, JO, OX
+JOXHQB, true, JO, OX
+JOXHQC, true, JO, OX
+JOXHRA, true, JO, OX, RA
+JOXHRB, true, JO, OX
+JOXHRC, true, JO, OX
+JOXHSA, true, JO, OX, SA
+JOXHSB, true, JO, OX
+JOXHSC, true, JO, OX
+JOXIPA, true, JO, OX, XI, PA
+JOXIPB, true, JO, OX, XI
+JOXIPC, true, JO, OX, XI
+JOXIQA, true, JO, OX, XI
+JOXIQB, true, JO, OX, XI
+JOXIQC, true, JO, OX, XI
+JOXIRA, true, JO, OX, XI, RA
+JOXIRB, true, JO, OX, XI
+JOXIRC, true, JO, OX, XI
+JOXISA, true, JO, OX, XI, IS, SA
+JOXISB, true, JO, OX, XI, IS
+JOXISC, true, JO, OX, XI, IS
+JOYGPA, true, JO, JOY, PA
+JOYGPB, true, JO, JOY
+JOYGPC, true, JO, JOY
+JOYGQA, true, JO, JOY
+JOYGQB, true, JO, JOY
+JOYGQC, true, JO, JOY
+JOYGRA, true, JO, JOY, GRA, RA
+JOYGRB, true, JO, JOY
+JOYGRC, true, JO, JOY
+JOYGSA, true, JO, JOY, SA
+JOYGSB, true, JO, JOY
+JOYGSC, true, JO, JOY
+JOYHPA, true, JO, JOY, PA
+JOYHPB, true, JO, JOY
+JOYHPC, true, JO, JOY
+JOYHQA, true, JO, JOY
+JOYHQB, true, JO, JOY
+JOYHQC, true, JO, JOY
+JOYHRA, true, JO, JOY, RA
+JOYHRB, true, JO, JOY
+JOYHRC, true, JO, JOY
+JOYHSA, true, JO, JOY, SA
+JOYHSB, true, JO, JOY
+JOYHSC, true, JO, JOY
+JOYIPA, true, JO, JOY, YIP, PA
+JOYIPB, true, JO, JOY, YIP
+JOYIPC, true, JO, JOY, YIP
+JOYIQA, true, JO, JOY
+JOYIQB, true, JO, JOY
+JOYIQC, true, JO, JOY
+JOYIRA, true, JO, JOY, RA
+JOYIRB, true, JO, JOY
+JOYIRC, true, JO, JOY
+JOYISA, true, JO, JOY, YIS, IS, SA
+JOYISB, true, JO, JOY, YIS, IS
+JOYISC, true, JO, JOY, YIS, IS
+JOZGPA, true, JO, PA
+JOZGPB, true, JO
+JOZGPC, true, JO
+JOZGQA, true, JO
+JOZGQB, true, JO
+JOZGQC, true, JO
+JOZGRA, true, JO, GRA, RA
+JOZGRB, true, JO
+JOZGRC, true, JO
+JOZGSA, true, JO, SA
+JOZGSB, true, JO
+JOZGSC, true, JO
+JOZHPA, true, JO, PA
+JOZHPB, true, JO
+JOZHPC, true, JO
+JOZHQA, true, JO
+JOZHQB, true, JO
+JOZHQC, true, JO
+JOZHRA, true, JO, RA
+JOZHRB, true, JO
+JOZHRC, true, JO
+JOZHSA, true, JO, SA
+JOZHSB, true, JO
+JOZHSC, true, JO
+JOZIPA, true, JO, ZIP, PA
+JOZIPB, true, JO, ZIP
+JOZIPC, true, JO, ZIP
+JOZIQA, true, JO
+JOZIQB, true, JO
+JOZIQC, true, JO
+JOZIRA, true, JO, ZIRA, RA
+JOZIRB, true, JO
+JOZIRC, true, JO
+JOZISA, true, JO, IS, SA
+JOZISB, true, JO, IS
+JOZISC, true, JO, IS
+KOWGPA, true, KO, OW, PA
+KOWGPB, true, KO, OW
+KOWGPC, true, KO, OW
+KOWGQA, true, KO, OW
+KOWGQB, true, KO, OW
+KOWGQC, true, KO, OW
+KOWGRA, true, KO, OW, GRA, RA
+KOWGRB, true, KO, OW
+KOWGRC, true, KO, OW
+KOWGSA, true, KO, OW, SA
+KOWGSB, true, KO, OW
+KOWGSC, true, KO, OW
+KOWHPA, true, KO, OW, PA
+KOWHPB, true, KO, OW
+KOWHPC, true, KO, OW
+KOWHQA, true, KO, OW
+KOWHQB, true, KO, OW
+KOWHQC, true, KO, OW
+KOWHRA, true, KO, OW, RA
+KOWHRB, true, KO, OW
+KOWHRC, true, KO, OW
+KOWHSA, true, KO, OW, SA
+KOWHSB, true, KO, OW
+KOWHSC, true, KO, OW
+KOWIPA, true, KO, OW, WI, PA
+KOWIPB, true, KO, OW, WI
+KOWIPC, true, KO, OW, WI
+KOWIQA, true, KO, OW, WI
+KOWIQB, true, KO, OW, WI
+KOWIQC, true, KO, OW, WI
+KOWIRA, true, KO, OW, WI, WIR, RA
+KOWIRB, true, KO, OW, WI, WIR
+KOWIRC, true, KO, OW, WI, WIR
+KOWISA, true, KO, OW, WI, WIS, IS, SA
+KOWISB, true, KO, OW, WI, WIS, IS
+KOWISC, true, KO, OW, WI, WIS, IS
+KOXGPA, true, KO, OX, PA
+KOXGPB, true, KO, OX
+KOXGPC, true, KO, OX
+KOXGQA, true, KO, OX
+KOXGQB, true, KO, OX
+KOXGQC, true, KO, OX
+KOXGRA, true, KO, OX, GRA, RA
+KOXGRB, true, KO, OX
+KOXGRC, true, KO, OX
+KOXGSA, true, KO, OX, SA
+KOXGSB, true, KO, OX
+KOXGSC, true, KO, OX
+KOXHPA, true, KO, OX, PA
+KOXHPB, true, KO, OX
+KOXHPC, true, KO, OX
+KOXHQA, true, KO, OX
+KOXHQB, true, KO, OX
+KOXHQC, true, KO, OX
+KOXHRA, true, KO, OX, RA
+KOXHRB, true, KO, OX
+KOXHRC, true, KO, OX
+KOXHSA, true, KO, OX, SA
+KOXHSB, true, KO, OX
+KOXHSC, true, KO, OX
+KOXIPA, true, KO, OX, XI, PA
+KOXIPB, true, KO, OX, XI
+KOXIPC, true, KO, OX, XI
+KOXIQA, true, KO, OX, XI
+KOXIQB, true, KO, OX, XI
+KOXIQC, true, KO, OX, XI
+KOXIRA, true, KO, OX, XI, RA
+KOXIRB, true, KO, OX, XI
+KOXIRC, true, KO, OX, XI
+KOXISA, true, KO, OX, XI, IS, SA
+KOXISB, true, KO, OX, XI, IS
+KOXISC, true, KO, OX, XI, IS
+KOYGPA, true, KO, PA
+KOYGPB, true, KO
+KOYGPC, true, KO
+KOYGQA, true, KO
+KOYGQB, true, KO
+KOYGQC, true, KO
+KOYGRA, true, KO, GRA, RA
+KOYGRB, true, KO
+KOYGRC, true, KO
+KOYGSA, true, KO, SA
+KOYGSB, true, KO
+KOYGSC, true, KO
+KOYHPA, true, KO, PA
+KOYHPB, true, KO
+KOYHPC, true, KO
+KOYHQA, true, KO
+KOYHQB, true, KO
+KOYHQC, true, KO
+KOYHRA, true, KO, RA
+KOYHRB, true, KO
+KOYHRC, true, KO
+KOYHSA, true, KO, SA
+KOYHSB, true, KO
+KOYHSC, true, KO
+KOYIPA, true, KO, YIP, PA
+KOYIPB, true, KO, YIP
+KOYIPC, true, KO, YIP
+KOYIQA, true, KO
+KOYIQB, true, KO
+KOYIQC, true, KO
+KOYIRA, true, KO, RA
+KOYIRB, true, KO
+KOYIRC, true, KO
+KOYISA, true, KO, YIS, IS, SA
+KOYISB, true, KO, YIS, IS
+KOYISC, true, KO, YIS, IS
+KOZGPA, true, KO, PA
+KOZGPB, true, KO
+KOZGPC, true, KO
+KOZGQA, true, KO
+KOZGQB, true, KO
+KOZGQC, true, KO
+KOZGRA, true, KO, GRA, RA
+KOZGRB, true, KO
+KOZGRC, true, KO
+KOZGSA, true, KO, SA
+KOZGSB, true, KO
+KOZGSC, true, KO
+KOZHPA, true, KO, PA
+KOZHPB, true, KO
+KOZHPC, true, KO
+KOZHQA, true, KO
+KOZHQB, true, KO
+KOZHQC, true, KO
+KOZHRA, true, KO, RA
+KOZHRB, true, KO
+KOZHRC, true, KO
+KOZHSA, true, KO, SA
+KOZHSB, true, KO
+KOZHSC, true, KO
+KOZIPA, true, KO, ZIP, PA
+KOZIPB, true, KO, ZIP
+KOZIPC, true, KO, ZIP
+KOZIQA, true, KO
+KOZIQB, true, KO
+KOZIQC, true, KO
+KOZIRA, true, KO, ZIRA, RA
+KOZIRB, true, KO
+KOZIRC, true, KO
+KOZISA, true, KO, IS, SA
+KOZISB, true, KO, IS
+KOZISC, true, KO, IS
+LOWGPA, true, LO, LOW, OW, PA
+LOWGPB, true, LO, LOW, OW
+LOWGPC, true, LO, LOW, OW
+LOWGQA, true, LO, LOW, OW
+LOWGQB, true, LO, LOW, OW
+LOWGQC, true, LO, LOW, OW
+LOWGRA, true, LO, LOW, OW, GRA, RA
+LOWGRB, true, LO, LOW, OW
+LOWGRC, true, LO, LOW, OW
+LOWGSA, true, LO, LOW, OW, SA
+LOWGSB, true, LO, LOW, OW
+LOWGSC, true, LO, LOW, OW
+LOWHPA, true, LO, LOW, OW, PA
+LOWHPB, true, LO, LOW, OW
+LOWHPC, true, LO, LOW, OW
+LOWHQA, true, LO, LOW, OW
+LOWHQB, true, LO, LOW, OW
+LOWHQC, true, LO, LOW, OW
+LOWHRA, true, LO, LOW, OW, RA
+LOWHRB, true, LO, LOW, OW
+LOWHRC, true, LO, LOW, OW
+LOWHSA, true, LO, LOW, OW, SA
+LOWHSB, true, LO, LOW, OW
+LOWHSC, true, LO, LOW, OW
+LOWIPA, true, LO, LOW, OW, WI, PA
+LOWIPB, true, LO, LOW, OW, WI
+LOWIPC, true, LO, LOW, OW, WI
+LOWIQA, true, LO, LOW, OW, WI
+LOWIQB, true, LO, LOW, OW, WI
+LOWIQC, true, LO, LOW, OW, WI
+LOWIRA, true, LO, LOW, OW, WI, WIR, RA
+LOWIRB, true, LO, LOW, OW, WI, WIR
+LOWIRC, true, LO, LOW, OW, WI, WIR
+LOWISA, true, LO, LOW, OW, WI, WIS, IS, SA
+LOWISB, true, LO, LOW, OW, WI, WIS, IS
+LOWISC, true, LO, LOW, OW, WI, WIS, IS
+LOXGPA, true, LO, LOX, OX, PA
+LOXGPB, true, LO, LOX, OX
+LOXGPC, true, LO, LOX, OX
+LOXGQA, true, LO, LOX, OX
+LOXGQB, true, LO, LOX, OX
+LOXGQC, true, LO, LOX, OX
+LOXGRA, true, LO, LOX, OX, GRA, RA
+LOXGRB, true, LO, LOX, OX
+LOXGRC, true, LO, LOX, OX
+LOXGSA, true, LO, LOX, OX, SA
+LOXGSB, true, LO, LOX, OX
+LOXGSC, true, LO, LOX, OX
+LOXHPA, true, LO, LOX, OX, PA
+LOXHPB, true, LO, LOX, OX
+LOXHPC, true, LO, LOX, OX
+LOXHQA, true, LO, LOX, OX
+LOXHQB, true, LO, LOX, OX
+LOXHQC, true, LO, LOX, OX
+LOXHRA, true, LO, LOX, OX, RA
+LOXHRB, true, LO, LOX, OX
+LOXHRC, true, LO, LOX, OX
+LOXHSA, true, LO, LOX, OX, SA
+LOXHSB, true, LO, LOX, OX
+LOXHSC, true, LO, LOX, OX
+LOXIPA, true, LO, LOX, OX, XI, PA
+LOXIPB, true, LO, LOX, OX, XI
+LOXIPC, true, LO, LOX, OX, XI
+LOXIQA, true, LO, LOX, OX, XI
+LOXIQB, true, LO, LOX, OX, XI
+LOXIQC, true, LO, LOX, OX, XI
+LOXIRA, true, LO, LOX, OX, XI, RA
+LOXIRB, true, LO, LOX, OX, XI
+LOXIRC, true, LO, LOX, OX, XI
+LOXISA, true, LO, LOX, OX, XI, IS, SA
+LOXISB, true, LO, LOX, OX, XI, IS
+LOXISC, true, LO, LOX, OX, XI, IS
+LOYGPA, true, LO, LOY, PA
+LOYGPB, true, LO, LOY
+LOYGPC, true, LO, LOY
+LOYGQA, true, LO, LOY
+LOYGQB, true, LO, LOY
+LOYGQC, true, LO, LOY
+LOYGRA, true, LO, LOY, GRA, RA
+LOYGRB, true, LO, LOY
+LOYGRC, true, LO, LOY
+LOYGSA, true, LO, LOY, SA
+LOYGSB, true, LO, LOY
+LOYGSC, true, LO, LOY
+LOYHPA, true, LO, LOY, PA
+LOYHPB, true, LO, LOY
+LOYHPC, true, LO, LOY
+LOYHQA, true, LO, LOY
+LOYHQB, true, LO, LOY
+LOYHQC, true, LO, LOY
+LOYHRA, true, LO, LOY, RA
+LOYHRB, true, LO, LOY
+LOYHRC, true, LO, LOY
+LOYHSA, true, LO, LOY, SA
+LOYHSB, true, LO, LOY
+LOYHSC, true, LO, LOY
+LOYIPA, true, LO, LOY, YIP, PA
+LOYIPB, true, LO, LOY, YIP
+LOYIPC, true, LO, LOY, YIP
+LOYIQA, true, LO, LOY
+LOYIQB, true, LO, LOY
+LOYIQC, true, LO, LOY
+LOYIRA, true, LO, LOY, RA
+LOYIRB, true, LO, LOY
+LOYIRC, true, LO, LOY
+LOYISA, true, LO, LOY, YIS, IS, SA
+LOYISB, true, LO, LOY, YIS, IS
+LOYISC, true, LO, LOY, YIS, IS
+LOZGPA, true, LO, PA
+LOZGPB, true, LO
+LOZGPC, true, LO
+LOZGQA, true, LO
+LOZGQB, true, LO
+LOZGQC, true, LO
+LOZGRA, true, LO, GRA, RA
+LOZGRB, true, LO
+LOZGRC, true, LO
+LOZGSA, true, LO, SA
+LOZGSB, true, LO
+LOZGSC, true, LO
+LOZHPA, true, LO, PA
+LOZHPB, true, LO
+LOZHPC, true, LO
+LOZHQA, true, LO
+LOZHQB, true, LO
+LOZHQC, true, LO
+LOZHRA, true, LO, RA
+LOZHRB, true, LO
+LOZHRC, true, LO
+LOZHSA, true, LO, SA
+LOZHSB, true, LO
+LOZHSC, true, LO
+LOZIPA, true, LO, ZIP, PA
+LOZIPB, true, LO, ZIP
+LOZIPC, true, LO, ZIP
+LOZIQA, true, LO
+LOZIQB, true, LO
+LOZIQC, true, LO
+LOZIRA, true, LO, ZIRA, RA
+LOZIRB, true, LO
+LOZIRC, true, LO
+LOZISA, true, LO, IS, SA
+LOZISB, true, LO, IS
+LOZISC, true, LO, IS

@@ -1,0 +1,144 @@
+WGPA, true, PA
+WGPB, false
+WGPC, false
+WGQA, false
+WGQB, false
+WGQC, false
+WGRA, true, GRA, RA
+WGRB, false
+WGRC, false
+WGSA, true, SA
+WGSB, false
+WGSC, false
+WHPA, true, PA
+WHPB, false
+WHPC, false
+WHQA, false
+WHQB, false
+WHQC, false
+WHRA, true, RA
+WHRB, false
+WHRC, false
+WHSA, true, SA
+WHSB, false
+WHSC, false
+WIPA, true, WI, PA
+WIPB, true, WI
+WIPC, true, WI
+WIQA, true, WI
+WIQB, true, WI
+WIQC, true, WI
+WIRA, true, WI, WIR, RA
+WIRB, true, WI, WIR
+WIRC, true, WI, WIR
+WISA, true, WI, WIS, IS, SA
+WISB, true, WI, WIS, IS
+WISC, true, WI, WIS, IS
+XGPA, true, PA
+XGPB, false
+XGPC, false
+XGQA, false
+XGQB, false
+XGQC, false
+XGRA, true, GRA, RA
+XGRB, false
+XGRC, false
+XGSA, true, SA
+XGSB, false
+XGSC, false
+XHPA, true, PA
+XHPB, false
+XHPC, false
+XHQA, false
+XHQB, false
+XHQC, false
+XHRA, true, RA
+XHRB, false
+XHRC, false
+XHSA, true, SA
+XHSB, false
+XHSC, false
+XIPA, true, XI, PA
+XIPB, true, XI
+XIPC, true, XI
+XIQA, true, XI
+XIQB, true, XI
+XIQC, true, XI
+XIRA, true, XI, RA
+XIRB, true, XI
+XIRC, true, XI
+XISA, true, XI, IS, SA
+XISB, true, XI, IS
+XISC, true, XI, IS
+YGPA, true, PA
+YGPB, false
+YGPC, false
+YGQA, false
+YGQB, false
+YGQC, false
+YGRA, true, GRA, RA
+YGRB, false
+YGRC, false
+YGSA, true, SA
+YGSB, false
+YGSC, false
+YHPA, true, PA
+YHPB, false
+YHPC, false
+YHQA, false
+YHQB, false
+YHQC, false
+YHRA, true, RA
+YHRB, false
+YHRC, false
+YHSA, true, SA
+YHSB, false
+YHSC, false
+YIPA, true, YIP, PA
+YIPB, true, YIP
+YIPC, true, YIP
+YIQA, false
+YIQB, false
+YIQC, false
+YIRA, true, RA
+YIRB, false
+YIRC, false
+YISA, true, YIS, IS, SA
+YISB, true, YIS, IS
+YISC, true, YIS, IS
+ZGPA, true, PA
+ZGPB, false
+ZGPC, false
+ZGQA, false
+ZGQB, false
+ZGQC, false
+ZGRA, true, GRA, RA
+ZGRB, false
+ZGRC, false
+ZGSA, true, SA
+ZGSB, false
+ZGSC, false
+ZHPA, true, PA
+ZHPB, false
+ZHPC, false
+ZHQA, false
+ZHQB, false
+ZHQC, false
+ZHRA, true, RA
+ZHRB, false
+ZHRC, false
+ZHSA, true, SA
+ZHSB, false
+ZHSC, false
+ZIPA, true, ZIP, PA
+ZIPB, true, ZIP
+ZIPC, true, ZIP
+ZIQA, false
+ZIQB, false
+ZIQC, false
+ZIRA, true
+ZIRB, false
+ZIRC, false
+ZISA, true, IS, SA
+ZISB, true, IS
+ZISC, true, IS

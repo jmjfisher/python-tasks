@@ -1,0 +1,144 @@
+OWGPA, true, OW, PA
+OWGPB, true, OW
+OWGPC, true, OW
+OWGQA, true, OW
+OWGQB, true, OW
+OWGQC, true, OW
+OWGRA, true, OW, GRA, RA
+OWGRB, true, OW
+OWGRC, true, OW
+OWGSA, true, OW, SA
+OWGSB, true, OW
+OWGSC, true, OW
+OWHPA, true, OW, PA
+OWHPB, true, OW
+OWHPC, true, OW
+OWHQA, true, OW
+OWHQB, true, OW
+OWHQC, true, OW
+OWHRA, true, OW, RA
+OWHRB, true, OW
+OWHRC, true, OW
+OWHSA, true, OW, SA
+OWHSB, true, OW
+OWHSC, true, OW
+OWIPA, true, OW, WI, PA
+OWIPB, true, OW, WI
+OWIPC, true, OW, WI
+OWIQA, true, OW, WI
+OWIQB, true, OW, WI
+OWIQC, true, OW, WI
+OWIRA, true, OW, WI, WIR, RA
+OWIRB, true, OW, WI, WIR
+OWIRC, true, OW, WI, WIR
+OWISA, true, OW, WI, WIS, IS, SA
+OWISB, true, OW, WI, WIS, IS
+OWISC, true, OW, WI, WIS, IS
+OXGPA, true, OX, PA
+OXGPB, true, OX
+OXGPC, true, OX
+OXGQA, true, OX
+OXGQB, true, OX
+OXGQC, true, OX
+OXGRA, true, OX, GRA, RA
+OXGRB, true, OX
+OXGRC, true, OX
+OXGSA, true, OX, SA
+OXGSB, true, OX
+OXGSC, true, OX
+OXHPA, true, OX, PA
+OXHPB, true, OX
+OXHPC, true, OX
+OXHQA, true, OX
+OXHQB, true, OX
+OXHQC, true, OX
+OXHRA, true, OX, RA
+OXHRB, true, OX
+OXHRC, true, OX
+OXHSA, true, OX, SA
+OXHSB, true, OX
+OXHSC, true, OX
+OXIPA, true, OX, XI, PA
+OXIPB, true, OX, XI
+OXIPC, true, OX, XI
+OXIQA, true, OX, XI
+OXIQB, true, OX, XI
+OXIQC, true, OX, XI
+OXIRA, true, OX, XI, RA
+OXIRB, true, OX, XI
+OXIRC, true, OX, XI
+OXISA, true, OX, XI, IS, SA
+OXISB, true, OX, XI, IS
+OXISC, true, OX, XI, IS
+OYGPA, true, PA
+OYGPB, false
+OYGPC, false
+OYGQA, false
+OYGQB, false
+OYGQC, false
+OYGRA, true, GRA, RA
+OYGRB, false
+OYGRC, false
+OYGSA, true, SA
+OYGSB, false
+OYGSC, false
+OYHPA, true, PA
+OYHPB, false
+OYHPC, false
+OYHQA, false
+OYHQB, false
+OYHQC, false
+OYHRA, true, RA
+OYHRB, false
+OYHRC, false
+OYHSA, true, SA
+OYHSB, false
+OYHSC, false
+OYIPA, true, YIP, PA
+OYIPB, true, YIP
+OYIPC, true, YIP
+OYIQA, false
+OYIQB, false
+OYIQC, false
+OYIRA, true, RA
+OYIRB, false
+OYIRC, false
+OYISA, true, YIS, IS, SA
+OYISB, true, YIS, IS
+OYISC, true, YIS, IS
+OZGPA, true, PA
+OZGPB, false
+OZGPC, false
+OZGQA, false
+OZGQB, false
+OZGQC, false
+OZGRA, true, GRA, RA
+OZGRB, false
+OZGRC, false
+OZGSA, true, SA
+OZGSB, false
+OZGSC, false
+OZHPA, true, PA
+OZHPB, false
+OZHPC, false
+OZHQA, false
+OZHQB, false
+OZHQC, false
+OZHRA, true, RA
+OZHRB, false
+OZHRC, false
+OZHSA, true, SA
+OZHSB, false
+OZHSC, false
+OZIPA, true, ZIP, PA
+OZIPB, true, ZIP
+OZIPC, true, ZIP
+OZIQA, false
+OZIQB, false
+OZIQC, false
+OZIRA, true, ZIRA, RA
+OZIRB, false
+OZIRC, false
+OZISA, true, IS, SA
+OZISB, true, IS
+OZISC, true, IS
